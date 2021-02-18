@@ -30,6 +30,7 @@ const withKeyboardAwareScrollView = WrappedComponent => {
             toValue: keyboardHeight,
             duration: 200,
             easing: Easing.linear,
+            useNativeDriver: true
           }).start();
         }
       }
@@ -41,6 +42,7 @@ const withKeyboardAwareScrollView = WrappedComponent => {
           toValue: 0,
           duration: 200,
           easing: Easing.linear,
+          useNativeDriver: true
         }).start();
       }
     }
