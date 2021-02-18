@@ -415,8 +415,6 @@ export default class Dropdown extends PureComponent {
             rightContent ? {maxWidth: 200} : {},
             listItemTextStyle,
           ]}
-          numberOfLines={1}
-          ellipsizeMode="tail"
         >
           {text}
         </Text>
