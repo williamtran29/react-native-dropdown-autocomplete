@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
-import React, {PureComponent} from "react";
+import React, {PureComponent, TouchableOpacity} from "react";
 import {Keyboard} from 'react-native';
-import { TouchableOpacity } from "react-native-gesture-handler";
 import styles from "./DropdownItem.styles";
 import {theme} from "../../constants/Theme";
 
